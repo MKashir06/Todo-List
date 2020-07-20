@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../bootstrap-4.4.1-dist/css/bootstrap.min.css">
+
+    <script src="https://kit.fontawesome.com/cf29be50d2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="todoBox">
+        <div id="myDIV" class="head">
+            <h2>Kashir's Todo List</h2>
+            <div class="row">
+                <input type="text" id="myTodo" class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8" placeholder="Add What Todo...">
+                <span onclick="newElement()" class="addBtn btn-primary col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">Add</span>
+                <span onclick="deleteAll()" class="delBtn btn-danger col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">Delete All</span>
+            </div>
+        </div>
+
+        <ul id="myUL">
+            <li>Take Bath</li>
+            <li>Do Break Fast</li>
+            <li>Buy some Grocery</li>
+            <li class="checked">Play Games</li>
+            <li>Do Some Tasks</li>
+            <li>Time Pass</li>
+        </ul>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
